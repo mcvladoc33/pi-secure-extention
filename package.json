@@ -1,0 +1,12 @@
+{
+  "name": "pi-secure-extension",
+  "version": "1.0.0",
+  "description": "Workspace path guard + Allow once/session/Deny confirmation dialog for write, edit, and bash",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
